@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px dotted red;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(226, 43%, 10%);
+    color: hsl(236, 100%, 87%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+footer {
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
