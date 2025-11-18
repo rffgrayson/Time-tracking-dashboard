@@ -1,8 +1,8 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px dotted red;
 }
 
 body {
@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
 
 header {
@@ -29,6 +28,26 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+
+.dashboard {
+    background-color: hsl(235, 46%, 20%);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+}
+
+.profile {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.time-tracking-cards {
+    grid-area: 1 / 2 / 3 / 2;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
 }
 
 .attribution { 
