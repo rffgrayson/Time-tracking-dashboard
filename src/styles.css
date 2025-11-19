@@ -74,6 +74,20 @@ footer {
     width: 50px;
     height: 50px;
     margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+.profile:hover img {
+    transform: scale(1.2);
+}
+
+.profile:hover {
+    filter: brightness(1.2);
+}
+
+.profile:hover .button-section {
+    filter: brightness(0.8);
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 12px;
 }
 
 .time-tracking-cards {
@@ -103,7 +117,12 @@ footer {
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 0.5rem;
-    
+    transition: all 0.1s ease;
+}
+
+.button-section button:hover {
+    transform: scale(1.05);
+    color: azure;
 }
 
 .card {
@@ -113,6 +132,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    transition: all 0.3s ease;
+}
+
+.card:hover .card-overlay {
+    padding: 2rem 1rem;
+    filter: brightness(1.5);
+    cursor: pointer;
 }
 
 .card-overlay {
@@ -120,9 +146,10 @@ footer {
     z-index: 20;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     color: white;
     border-radius: 12px;
+    transition: all 0.3s ease;
 }
 
 .card-header {
@@ -145,14 +172,14 @@ footer {
 .current-hours {
     font-family: 'Rubik';
     font-weight: 400;
-    color: hsl(236, 100%, 87%);
+    color: azure;
 }
 
 .previous-hours {
        font-family: 'Rubik';
     font-size: 12px;
     font-weight: 300;
-    color: hsl(236, 100%, 87%);
+    color: azure;
 }
 
 #work {
