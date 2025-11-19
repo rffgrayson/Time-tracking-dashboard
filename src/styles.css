@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dotted green;
 }
 
 body {
@@ -57,7 +56,7 @@ footer {
 
 .profile-info p {
     font-family: 'Rubik';
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 300;
     color: hsl(236, 100%, 87%);
 }
@@ -101,7 +100,7 @@ footer {
     cursor: pointer;
     color: hsl(236, 100%, 87%);
     font-family: 'Rubik';
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 300;
     margin-bottom: 0.5rem;
     
@@ -124,6 +123,36 @@ footer {
     padding: 1rem;
     color: white;
     border-radius: 12px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    font-family: 'Rubik';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-header img {
+    padding: 0.25rem;
+}
+
+.current-hours {
+    font-family: 'Rubik';
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+}
+
+.previous-hours {
+       font-family: 'Rubik';
+    font-size: 12px;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
 }
 
 #work {
@@ -159,9 +188,10 @@ background-color: hsl(43, 84%, 65%);
 }
 
 .attribution { 
+    color: azure;
     font-size: 11px; text-align: center; 
 }
     
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 67%, 74%); 
 }
