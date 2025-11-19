@@ -1,11 +1,10 @@
-// webpack.common.js
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/script.js", // keep consistent with your project
+  entry: "./src/index.js", 
   output: {
-    filename: "main.[contenthash].js", // hashed for cache busting
+    filename: "main.[contenthash].js", 
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
@@ -27,7 +26,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // so your HTML is copied
+      template: "./src/template.html", 
     }),
   ],
 };
