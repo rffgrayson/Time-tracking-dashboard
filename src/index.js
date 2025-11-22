@@ -13,6 +13,11 @@ function updateDashboard (timeframe) {
     });
 }
 
-document.getElementById('daily-btn').addEventListener('click', () => {
-    updateDashboard('daily');
-  });
+document.querySelectorAll('.timeframe-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const timeframe = button.id.replace('-btn', '');
+        updateDashboard(timeframe);
+    }        
+    )
+}
+)
