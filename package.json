@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rffkive/Time-tracking-dashboard.git"
+    "url": "git+https://github.com/rffgrayson/Time-tracking-dashboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rffkive/Time-tracking-dashboard/issues"
+    "url": "https://github.com/rffgraysonTime-tracking-dashboard/issues"
   },
-  "homepage": "https://rffkive.github.io/Time-tracking-dashboard",
+  "homepage": "https://rffgrayson.github.io/Time-tracking-dashboard",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
